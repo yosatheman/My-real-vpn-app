@@ -1,0 +1,7 @@
+{
+  "name": "NetForge",
+  "description": "HTTP Injector-style VPN client with multi-mode tunneling, payload engine, and encrypted config management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

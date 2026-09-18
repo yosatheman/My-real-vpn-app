@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Outer -->
+    <path
+        android:pathData="M54,26 L78,35 C78,56 67,72 54,80 C41,72 30,56 30,35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="26"
+                android:endX="54"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF8B5CF6" />
+                <item android:offset="1.0" android:color="#FF6D28D9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Shield Accent -->
+    <path
+        android:strokeColor="#FFC4B5FD"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000"
+        android:pathData="M54,30 L74,38 C74,54 64,68 54,75 C44,68 34,54 34,38 Z" />
+    <!-- Tunnel / Lightning Forge Symbol -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M55,36 L43,51 L51,51 L48,68 L63,49 L55,49 Z" />
+    <!-- Glowing Node Ring -->
+    <path
+        android:fillColor="#FFDDD6FE"
+        android:pathData="M54,40 C54.5,40 55,40.5 55,41 C55,41.5 54.5,42 54,42 C53.5,42 53,41.5 53,41 C53,40.5 53.5,40 54,40 Z" />
+</vector>
